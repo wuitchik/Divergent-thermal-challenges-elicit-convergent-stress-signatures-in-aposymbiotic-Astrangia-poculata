@@ -8,3 +8,6 @@ challenge: 31C, 10 days; Cold challenge: 6C, 16 days) to determine the effects o
 Behavioural responses to food stimuli were monitored throughout the thermal challenges and genome-wide
 gene expression profiling (TagSeq) was used to characterize molecular underpinnings of the coral’s response
 to stress in its aposymbiotic state.
+
+Transcriptome files are organized separately from both heat, and cold experiments. All analyses in R can be found in the file Astrangia_HotCold.pdf along with annotations. 
+
