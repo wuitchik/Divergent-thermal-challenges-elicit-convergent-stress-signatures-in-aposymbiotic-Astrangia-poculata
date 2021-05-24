@@ -104,3 +104,10 @@ module load python3
 /projectnb/coral/MPCC_2018/scc6_qsub_launcher.py -N getgo -P coral -M wuitchik -j y -h_rt 24:00:00 -jobsfile getgo
 qsub getgo_array.qsub
 
+# checking transcriptome quality
+
+module load miniconda/4.9.2
+conda create -n transrate -c bioconda lmfaber transrate transrate-tools
+conda activate 
+transrate --assembly ast_MPCC2017_transcriptome.fasta --reference O_arbuscula_transcriptome.fasta --threads 32
+
